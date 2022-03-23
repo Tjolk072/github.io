@@ -1,0 +1,9 @@
+.dockerignore
+.git
+.github
+.jekyll-metadata
+.gitignore
+Dockerfile
+docker-compose.yml
+_site
+Gemfile.lock
