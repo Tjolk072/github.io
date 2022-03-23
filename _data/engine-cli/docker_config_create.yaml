@@ -1,0 +1,17 @@
+command: docker config create
+short: Create a configuration file from a file or STDIN as content
+long: Create a configuration file from a file or STDIN as content
+usage: docker config create [OPTIONS] CONFIG file|-
+pname: docker config
+plink: docker_config.yaml
+options:
+- option: label
+  shorthand: l
+  value_type: list
+  description: Config labels
+  deprecated: false
+  experimental: false
+deprecated: false
+min_api_version: "1.30"
+experimental: false
+
